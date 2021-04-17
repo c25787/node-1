@@ -1,8 +1,8 @@
-const express=reqire('express')
+const express=require('express')
 const app=express()
 
 
-app.get('/',  (req,res) =>res.send("Hello ji")
+app.get('/',  (req,res) =>res.send("Hello ji ok d")
 )
 
 app.listen(3000)
